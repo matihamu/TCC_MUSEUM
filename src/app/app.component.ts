@@ -2,6 +2,10 @@ import { Component } from '@angular/core';
 import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { BarcodeScanner } from '@ionic-native/barcode-scanner';
+import { InAppBrowser } from '@ionic-native/in-app-browser';
+import { QRScanner, QRScannerStatus } from '@ionic-native/qr-scanner';
+import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
 
 import { TabsPage } from '../pages/tabs/tabs';
 
